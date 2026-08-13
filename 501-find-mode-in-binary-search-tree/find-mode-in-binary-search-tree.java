@@ -24,7 +24,7 @@ class Solution {
 
         inorder(node.left);
 
-        // Count current value
+     
         if (prev == null || node.val != prev) {
             count = 1;
         } else {
